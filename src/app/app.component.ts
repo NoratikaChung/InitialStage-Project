@@ -7,4 +7,10 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'angular-tutorial';
+
+  selectedSite: any;
+
+  onSiteSelected(site: any): void {
+    this.selectedSite = site;
+  }
 }
