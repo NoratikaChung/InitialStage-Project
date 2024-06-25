@@ -61,4 +61,31 @@ h2 {
   .offline {
     color: red;
   }
+
+  /*  */
+  
+  .dropdown-container {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .description-btn {
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 10;
+  }
+  
+  .dropdown-content {
+    display: block;
+    position: absolute;
+    top: 40px; /* Adjust based on your needs */
+    right: 0;
+    background-color: white;
+    border: 1px solid #ccc;
+    z-index: 9;
+    width: 300px; /* Adjust width based on your content */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+  }
   
